@@ -1,0 +1,109 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccccff;
+}
+
+/* Style the header */
+header {
+    background-color: #ccccff;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+
+.home_title {
+	color: #404040;
+	font-size: 80px;
+	text-align: center;
+	padding-left: 180px;
+}
+
+.page_title {
+	color: #404040;
+	font-size: 50px;
+	text-align: center;
+	padding-left: 180px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 20%;
+    background: #ccccff;
+    padding: 20px;
+}
+
+h1 {
+	font-size: 23px;
+	color: #404040;
+}
+
+ul {
+    padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #404040; 
+	font-size: 18px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 80%;
+    background-color: #e6e6ff;
+    font-size: 20px;
+    color: #00004d; 
+    font-style: italic; 
+}
+
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 283px;
+}
+
+div.gallery img {
+    width: 281px;
+    height: 250px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copou_img1,
+.cathedral_img1,
+.asachi_img1,
+.creanga_img1,
+.ruginoasa_img1, 
+.sturza_img1    {
+    padding: 20px;
+    margin-left: 380px;
+}
+
+
+/* Style the footer */
+footer {
+    background-color: #ccccff;
+    padding: 5px;
+    text-align: right;
+    color: #000033;
+    font-size: 12px;
+}

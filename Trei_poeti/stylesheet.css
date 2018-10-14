@@ -1,0 +1,166 @@
+body {
+    padding: 5px;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* top */
+div#top_region {
+    background-color: #f2f2f2; 
+    border: 0.016px dashed lightgrey;
+    text-align: left;
+    color: black;
+}
+
+p#site_name {
+    font-size: 48px;
+    padding: 5px;
+    margin: 0.5px;
+}
+
+
+/* menu */
+div#column1 {
+    float: left;
+    width: 9%;
+    padding: 5px; 
+}
+
+ul.vertical_menu {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+   cursor: pointer;   
+}
+
+button {
+    background-color: #f2f2f2; /* For browsers that do not support gradients */
+    background-image: linear-gradient(lightgrey, white);
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 6px 20px;
+    margin: 5px 0px;
+    width: 150px;
+}
+
+a.button {
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman";
+    font-size: 24px;
+}
+ 
+div#content {
+    height: 300px;
+}
+
+
+ /* content column 2 */
+div#column2 {
+    float: left;
+    width: 90%;  
+}
+
+h1.page_title {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
+
+div.content_left {
+    float: left;
+    position: relative;
+    width: 20%;
+    margin-top: 10px;
+}
+
+div.content_left > p {
+    font-size: 18px;
+    margin: 10px 5px;
+}
+
+div.content_right {
+    float: left;
+    position: absolute;
+    width: 50%;
+    margin-left: 166px;
+}
+
+div.content_right > p {
+    font-size: 18px;
+    margin-top: 14px;
+}
+
+
+/* home page */
+div#content_home {
+  height: 150px;
+}
+
+ul.content_links > li {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+
+/* Clear floats after the columns */
+div#content:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* contct page */
+form.contact {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contact_username,
+.contact_usermail, 
+.contact_usermessage,
+.send_button {
+    padding: 5px;
+}
+
+input.user, .email {
+   width: 310px;
+}
+
+textarea.message {
+    width: 230px;
+    height: 75px;
+}
+
+div.send_button {
+    padding: 4px;
+}
+
+
+/* bottom side */
+hr { 
+    display: block;
+    border-width: 0.9px;
+}
+
+div#bottom_region {
+    float: left;
+    width: 91.5%;
+    font-size: 10px;
+    margin-left: 160px;
+}
+
+div#bottom_region > p {
+    margin: 16px;
+}
+
+

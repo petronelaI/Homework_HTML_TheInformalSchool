@@ -1,0 +1,101 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+/* navigation */
+nav {
+	background-image: url("images/bluegradient.jpg");
+	float: left;
+	width: 11.3%;
+	padding: 1%;	
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.logo {
+	padding: 0;
+	margin-left: 9%; 
+	width: 80%;
+	height: 40%;
+}
+
+.htmlbooks {
+	list-style-type: none;
+	margin: 23%; 
+	font-size: 100%;
+}
+
+#searchsite {
+	color: white;
+	margin: 1% 15%;
+	font-size: 100%;
+}	
+
+.whitebox {
+	margin:1% 2%; 
+}
+
+.button {          
+	background-color: black;
+	color:white;
+	text-align: center;
+	padding: 3% 5%;
+	font-size: 70%;
+	margin: 1% 30% 20%;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.sitemap {
+	color: #51ccf8;
+	font-size: 180%;
+	padding-left: 18%;
+}
+
+.homepage {
+	font-size: 130%;
+}
+
+h3 {
+	color: yellow;
+	margin-bottom: 1%;
+	font-size: 120%;
+}
+
+.beginnerinfo {
+	color: #ffff99;
+	font-size: 100%;
+}
+
+a {
+	color: white;
+	size: 5%;
+	font-size: 100%;
+}
+
+/*content */
+content  {
+	float: left;
+	padding: 1% 3%;
+	width: 40%;
+	font-size: 110%
+}
+
+.textheader {
+	font-size: 80%;
+	background-size: 200%;
+}
+
+.content_text {
+	padding-top: 3%;
+}
+
